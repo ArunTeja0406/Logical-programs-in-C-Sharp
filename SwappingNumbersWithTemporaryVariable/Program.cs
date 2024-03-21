@@ -7,17 +7,18 @@
             int a = 5, b = 25, temp;
             Console.WriteLine($"The values before swappping a: {a} and b: {b}");
 
+            //Using with temporary
             //temp = a;
             //a = b;
             //b = temp;
 
-            //Now, without temporary value using addition method
+            //Now using without temporary value using addition method
             //a = a + b;
             //b = a - b;
             //a = a - b;
 
 
-            //Now, without temporary value using multiple method
+            //Now using without temporary value using multiple method
             a = a * b; 
             b = a / b;
             a = a / b;

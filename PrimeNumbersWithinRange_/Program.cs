@@ -9,7 +9,6 @@
 
             PrintPrimeNumbers(input);
         }
-
         // Method to check if a number is prime
         static bool IsPrime(int num)
         {
@@ -25,7 +24,6 @@
                     return false;
                 }
             }
-
             return true;
         }
 
